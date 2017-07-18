@@ -1,9 +1,9 @@
 #!/bin/bash
 
-sudo apt-get update
+apt-get update
 
-sudo apt-get install vim
+apt-get install vim
 
-sudo apt install docker.io
+apt install docker.io
 
-sudo apt install docker-compose
+apt install docker-compose
