@@ -15,3 +15,4 @@ https://www.digitalocean.com/community/tutorials/how-to-configure-a-continuous-i
 
 2017.07.27
 SmartX-Energy Dockerfile(flume) test
+1. change Java install path
