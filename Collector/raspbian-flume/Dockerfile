@@ -1,5 +1,6 @@
 FROM resin/rpi-raspbian:wheezy
 MAINTAINER Seungryong Kim <srkim@nm.gist.ac.kr>
+MAINTAINER Chorwon Kim <cwkim@nm.gist.ac.kr>
 
 #Update & Install wget, vim
 RUN apt-get update
