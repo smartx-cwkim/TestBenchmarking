@@ -12,7 +12,7 @@ RUN cp /usr/share/zoneinfo/Asia/Seoul /etc/localtime
 
 #Install Oracle JAVA
 RUN mkdir -p /opt
-RUN apt-get install openjdk-8-jdk
+RUN apt-get install oracle-java8-jdk
 
 #Install Flume
 RUN sudo wget --no-check-certificate http://www.apache.org/dist/flume/1.6.0/apache-flume-1.6.0-bin.tar.gz -O - | tar -zxv
