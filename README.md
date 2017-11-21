@@ -8,6 +8,7 @@ Set the configuration file#6
 
 2017.07.24
 
+123
 
 hello_world directory
 : How To Configure a Continuous Integration Testing Environment with Docker and Docker Compose on Ubuntu 14.04
