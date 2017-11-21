@@ -8,8 +8,6 @@ Set the configuration file#6
 
 2017.07.24
 
-12345667883kljahfdfsfsfs
-
 hello_world directory
 : How To Configure a Continuous Integration Testing Environment with Docker and Docker Compose on Ubuntu 14.04
 
@@ -19,3 +17,6 @@ https://www.digitalocean.com/community/tutorials/how-to-configure-a-continuous-i
 SmartX-Energy Dockerfile(flume) test
 1. change Java install path
 2. install Java by openJDK
+
+2017.11.21
+Smart Energy IoT-Cloud Service Checking Container Deployment
