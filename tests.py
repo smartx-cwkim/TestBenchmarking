@@ -7,5 +7,5 @@ class MyCalcTest(unittest.TestCase):
 	self.assertEqual(c,30)
 
     def test_substract(self):
-	c = myCalc.substract(20,10)
+	c = myCalc.substract(60,50)
 	self.assertEqual(c,10)

@@ -1,0 +1,22 @@
+#!/bin/bash
+#Not Working
+
+echo "192.168.0.137 ubuntu" | sudo tee -a /etc/hosts
+echo "192.168.0.139 black-pearl" | sudo tee -a /etc/hosts
+
+if [ $1 = "zookeeper" ]
+then
+	bin/zookeeper-server-start.sh config/zookeeper.properties
+elif [ $1 = "broker" ]
+then
+	lwt=$(docker info | grep Containers)
+	containerCount=${lwt:11:2}+1
+	defaultPort=9092
+	let containerPort=$defaultPort+$containerCount
+
+	sed -i 's/broker.id=0/broker.id='$containerCount'/g' config/server.properties
+        sed -i 's/port=9092/port='$containerPort'/g' config/server.properties
+	bin/kafka-server-start.sh config/server.properties
+else
+	exit
+fi
