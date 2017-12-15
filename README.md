@@ -19,4 +19,4 @@ SmartX-Energy Dockerfile(flume) test
 2. install Java by openJDK
 
 2017.11.21
-Smart Energy IoT-Cloud Service Checking Container Deploymentfdfdfd
+Smart Energy IoT-Cloud Service Checking Container Deployment
